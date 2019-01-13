@@ -1,0 +1,12 @@
+{
+    "require": {
+        "yangzhouhong/bobbys-oop": "master-dev",
+        "psr/container": "^1.0",
+        "filp/whoops": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
