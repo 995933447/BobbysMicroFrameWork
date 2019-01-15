@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace App\Provider;
 
 use Bobby\Component\Provider\WrapperProvider as Provider;
@@ -8,7 +8,7 @@ use Bobby\Component\Provider\WrapperProvider as Provider;
  */
 class WrapperProvider extends Provider
 {
-	// public $isDeffer = true;
+	public $isDeffer = true;
 
 	protected $wrap = [
 		'example' => '\\App\\Wrapper\\Example',
@@ -16,7 +16,7 @@ class WrapperProvider extends Provider
 		'after' => '\\App\\Wrapper\\AfterExample',
 	];
 
-	// public $provide = ['example'];
+	public $provide = ['example'];
 
 	public function register()
 	{

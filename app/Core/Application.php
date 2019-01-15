@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace App\Core;
 
 /**
@@ -7,7 +7,7 @@ namespace App\Core;
 class Application extends \Bobby\Component\Contanier\Contanier
 {
 
-	public $isDevelopment = false;	//标识是否为开发者模式 
+	public $isDevelopment = false;	//标识是否为开发者模式
 
 	public $services = [];	//已解析路由
 
@@ -71,7 +71,7 @@ str;
 
 		}
 		if(isset($configurations['app']['debug']) && $configurations['app']['debug']) $this->isDevelopment = true;
-		
+
 		return $configurations ?? [];
 	}
 
@@ -82,7 +82,7 @@ str;
 	 */
 	public function config($key)
 	{
-		return $this->make('Config')->get($key);
+		return $this->make('\\Bobby\\Contract\\Config\\Config')->get($key);
 	}
 
 	/**
@@ -90,7 +90,7 @@ str;
 	 * @param  [type] $provider [description]
 	 * @return [type]           [description]
 	 */
-	public function register($provider) 
+	public function register($provider)
 	{
 		if(isset($this->services[$provider])) return;
 
@@ -134,7 +134,7 @@ str;
 
 		//根据请求进行路由寻址
 		$route = $this->findRoute($request);
-		
+
 		//解析目标地址路由
 		$destination = $this->runRoute($route);
 
@@ -152,7 +152,7 @@ str;
 	{
 		$method = $request->server('request_method');
 
-		$route = $this->make('Router')->findRoute($method, $request->uri());
+		$route = $this->make('\\Bobby\\Contract\\Route\\Route')->findRoute($method, $request->uri());
 
 		$method = strtolower($method);
 

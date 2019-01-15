@@ -18,13 +18,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/filp/whoops/zipball/bc0fd11bc455cc20ee4b5edabc63ebbf859324c7",
                 "reference": "bc0fd11bc455cc20ee4b5edabc63ebbf859324c7",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^5.5.9 || ^7.0",
@@ -85,13 +79,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
                 "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
@@ -140,13 +128,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/log/zipball/6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
                 "reference": "6c001f1daafa3a3ac1d8ff69ee4db8e799a654dd",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
@@ -187,19 +169,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/995933447/bobbysoop.git",
-                "reference": "240220f192f387a6291477b75db4589f3627fc30"
+                "reference": "fd4c3e354392e3dff1f49b934a32c23edbf91c69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/995933447/bobbysoop/zipball/240220f192f387a6291477b75db4589f3627fc30",
-                "reference": "240220f192f387a6291477b75db4589f3627fc30",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://dl.laravel-china.org/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "url": "https://api.github.com/repos/995933447/bobbysoop/zipball/fd4c3e354392e3dff1f49b934a32c23edbf91c69",
+                "reference": "fd4c3e354392e3dff1f49b934a32c23edbf91c69",
+                "shasum": ""
             },
             "type": "library",
             "autoload": {
@@ -218,7 +194,7 @@
                 }
             ],
             "description": "Php oop frame work",
-            "time": "2018-12-08T16:54:47+00:00"
+            "time": "2019-01-14T18:22:08+00:00"
         }
     ],
     "packages-dev": [],
