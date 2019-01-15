@@ -130,7 +130,7 @@ str;
 	public function responsePipeline($request)
 	{
 		//绑定请求实例
-		$this->instance('Request', $request);
+		$this->instance('\\Bobby\\Contract\\Http\\Request', $request);
 
 		//根据请求进行路由寻址
 		$route = $this->findRoute($request);

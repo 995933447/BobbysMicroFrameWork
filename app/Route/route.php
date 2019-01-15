@@ -9,7 +9,7 @@ use Bobby\Component\Proxy\Request;
 
 Route::get('/', function(){
 	echo '<h1 style="position:fixed;left:0;right:0;top:0;bottom:0;margin:auto;width:100%;height:30px;text-align:center;">
-	if( 6 _ 6 ) { Bobby :D\'s frame work started ; }
+	do(9 ^ v ^)9 { Bobby :D\'s frame work started ; } while( 6 _ 6 )
 	</h1>';
 });
 
@@ -17,7 +17,7 @@ Route::any('/example/{name}/{id}', 'ExampleController@iocExample')->wrappers(['e
 
 Route::post('/{member}/member', function($member, \StdClass $std) {
 
-	var_dump(Request::post(), $member, $std);
+	var_dump(Request::get(), $member, $std);
 
 });
 
