@@ -13,7 +13,7 @@ Route::get('/', function(){
 	</h1>';
 });
 
-Route::any('/example/{name}/{id}', 'ExampleController@iocExample')->wrappers(['example', 'before', 'after']);
+Route::any('/example/{name}/{id}', 'ExampleController::iocExample')->wrappers(['example', 'before', 'after']);
 
 Route::post('/{member}/member', function($member, \StdClass $std) {
 

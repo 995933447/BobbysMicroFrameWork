@@ -168,7 +168,7 @@ str;
 	 */
 	private function runRoute($route)
 	{
-		return \Bobby\Component\Route\Resolver::runRoute($route, '@', $this);
+		return \Bobby\Component\Route\Resolver::runRoute($route, '::', $this);
 	}
 
 	/**
