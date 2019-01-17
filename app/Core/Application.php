@@ -94,12 +94,7 @@ str;
 	{
 		if(isset($this->services[$provider])) return;
 
-		if(method_exists($provider, 'register'))
-		{
-			 ($instance = new $provider($this))->register();
-		} else {
-			return;
-		}
+		($instance = new $provider($this))->register();
 
 		$this->services[$provider] = $instance;
 
