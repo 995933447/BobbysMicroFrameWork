@@ -16,7 +16,7 @@ class WrapperProvider extends Provider
 		'after' => '\\App\\Wrapper\\AfterExample',
 	];
 
-	public $provide = ['example'];
+	public $provide = ['example', 'defer', 'after'];
 
 	public function register()
 	{

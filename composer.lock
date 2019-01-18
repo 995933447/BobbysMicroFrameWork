@@ -169,19 +169,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/995933447/bobbysoop.git",
-                "reference": "fd4c3e354392e3dff1f49b934a32c23edbf91c69"
+                "reference": "669898367808044e884e493d3632e0d9db41f9f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/995933447/bobbysoop/zipball/fd4c3e354392e3dff1f49b934a32c23edbf91c69",
-                "reference": "fd4c3e354392e3dff1f49b934a32c23edbf91c69",
+                "url": "https://api.github.com/repos/995933447/bobbysoop/zipball/669898367808044e884e493d3632e0d9db41f9f6",
+                "reference": "669898367808044e884e493d3632e0d9db41f9f6",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Bobby\\": "src/"
-                }
+                },
+                "files": [
+                    "src/Contract/Http/Request.php"
+                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -194,7 +197,7 @@
                 }
             ],
             "description": "Php oop frame work",
-            "time": "2019-01-14T18:22:08+00:00"
+            "time": "2019-01-17T18:06:22+00:00"
         }
     ],
     "packages-dev": [],

@@ -4,7 +4,7 @@ namespace App\Core;
 /**
  * 框架核心引擎
  */
-class Application extends \Bobby\Component\Contanier\Contanier
+class Application extends \Bobby\Component\Container\Container implements \Bobby\Contract\AppEngine\Engine
 {
 
 	public $isDevelopment = false;	//标识是否为开发者模式
@@ -31,6 +31,43 @@ class Application extends \Bobby\Component\Contanier\Contanier
 	private $configPath = __DIR__ . '/../Config';
 
 	private $configCacheFile =   __DIR__ . '/../Cache/config.php';
+
+	/**
+	 * [defferRegister 延迟注册的服务]
+	 * @param  array  $registerar [description]
+	 * @return [type]             [description]
+	 */
+	public function defferRegister(array $registerar)
+	{
+		$this->defferProvides = $registerar;
+	}
+
+	/**
+	 * [isDevelopment 检测框架引擎是否处于开发模式]
+	 * @return boolean [description]
+	 */
+	public function isDevelopment()
+	{
+		return $this->isDevelopment;
+	}
+
+	/**
+	 * [isBooted 检测框架引擎是否启动完成]
+	 * @return boolean [description]
+	 */
+	public function isBooted()
+	{
+		return $this->isBooted;
+	}
+
+	/**
+	 * [CompleteBoot 标识框架启动完成]
+	 * @return [type] [description]
+	 */
+	public function completeBoot()
+	{
+		return $this->isBooted = true;
+	}
 
 	/**
 	 * [bootstrap 框架启动]
@@ -80,8 +117,9 @@ str;
 	 * @param  [type] $key [description]
 	 * @return [type]      [description]
 	 */
-	public function config($key)
+	public function config($key = null)
 	{
+		if(!isset($this->instance['\\Bobby\\Contract\\Config\\Config']) && !$key) return $this->getConfigurations();
 		return $this->make('\\Bobby\\Contract\\Config\\Config')->get($key);
 	}
 
@@ -114,7 +152,7 @@ str;
 			unset($this->defferProvides[$abstract]);
 		}
 
-	   return parent::make($abstract);
+	   	return parent::make($abstract);
 	}
 
 	/**
@@ -176,5 +214,6 @@ str;
 	{
 		return \Bobby\Component\Wrapper\Wrapper::handle($wrappers, $destination, $this);
 	}
+
 
 }
