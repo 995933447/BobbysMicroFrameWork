@@ -20,7 +20,7 @@ return [
             'user' => 'root',
             'password' => '',
             'database' => 'test',
-            'charset' => 'utf8mb4'
+            'charset' => 'utf8mb4',
             'prefix' => '',
 
             'read' => [
