@@ -32,8 +32,8 @@ return [
 
 	//服务提供者
 	'providers' => [
-		'Bobby\\Component\\Provider\\RouteProvider',
-		'App\\Provider\\EventProvider',
-		'App\\Provider\\WrapperProvider'
+		'\\Bobby\\Component\\Provider\\RouteProvider',
+		'\\App\\Provider\\EventProvider',
+		'\\App\\Provider\\WrapperProvider'
 	]
 ];

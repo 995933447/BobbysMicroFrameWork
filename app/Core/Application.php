@@ -20,12 +20,12 @@ class Application extends \Bobby\Component\Container\Container implements \Bobby
 	 * @var [type]
 	 */
 	private $bootstrappers = [
-		'Bobby\\Component\\Bootstrap\\ConfigHandle',
-		'Bobby\\Component\\Bootstrap\\LogHandle',
-		'Bobby\\Component\\Bootstrap\\ExceptionHandle',
-		'Bobby\\Component\\Bootstrap\\RegisterProviderHandle',
-		'Bobby\\Component\\Bootstrap\\ProxyHandle',
-		'Bobby\\Component\\Bootstrap\\BootProviderHandle'
+		'\\Bobby\\Component\\Bootstrap\\ConfigHandle',
+		'\\Bobby\\Component\\Bootstrap\\LogHandle',
+		'\\Bobby\\Component\\Bootstrap\\ExceptionHandle',
+		'\\Bobby\\Component\\Bootstrap\\RegisterProviderHandle',
+		'\\Bobby\\Component\\Bootstrap\\ProxyHandle',
+		'\\Bobby\\Component\\Bootstrap\\BootProviderHandle'
 	];
 
 	private $configPath = __DIR__ . '/../Config';
