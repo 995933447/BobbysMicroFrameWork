@@ -21,11 +21,11 @@ return [
             'database' => 'test',
             'charset' => 'utf8mb4',
             'prefix' => '',
+            'timeout' => 1,
 
             'read' => [
                 [
                     'host' => '127.0.0.2',
-                    'port' => 6372
                 ],
                 [
                     'host' => '127.0.0.3',

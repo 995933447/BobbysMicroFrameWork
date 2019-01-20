@@ -4,8 +4,7 @@
  * 路由定义示例代码
  */
 
-use Bobby\Component\Proxy\Route;
-use Bobby\Component\Proxy\Request;
+use Bobby\Component\Proxy\{Route, Request};
 
 Route::get('/', function(){
 	echo '<h1 style="position:fixed;left:0;right:0;top:0;bottom:0;margin:auto;width:100%;height:30px;text-align:center;">
