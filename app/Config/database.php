@@ -22,6 +22,8 @@ return [
             'charset' => 'utf8mb4',
             'prefix' => '',
             'timeout' => 1,
+            'error_mode' => 2, //0 静默模式,默认的出错了不管;1 警告模式,如果出错了就会报出警告;2 异常模式,如果出错会采用异常来处理（PDOException） 
+            'pconnect' => true, //是否开启长连接
 
             'read' => [
                 [
