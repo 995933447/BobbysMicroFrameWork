@@ -17,9 +17,9 @@ return [
 	'route' => [
 		'namespace' => '\\App\\Controller\\',
 		'file' => __DIR__ . '/../Route/route.php',
-		'cache' => [
+		'persistence' => [
 			//注意:开启路由缓存请一定保证没有定义闭包模式路由,目前仅支持控制器模式路由缓存,并且保证PHP已经安装apcu拓展 (原因:使用了apcu进行了高速缓存,php无法序列化存储闭包.有一些开源php库开源序列化闭包,但是会消耗一定性能,所有采用原生的apcu进行高速缓存)
-			'open' => false, 
+			'cached' => false, 
 			'key' => __FILE__
 		] 
 	],
