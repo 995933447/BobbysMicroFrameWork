@@ -391,3 +391,39 @@
 #5 /var/www/frame/myframe/public/index.php(3): require('/var/www/frame/...')
 #6 {main}
 
+[2019-01-24 04:19:18]  ,error code: 0 error message:Serialization of 'Closure' is not allowed in /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Route/Base.php line 184
+#0 /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Route/Base.php(184): apcu_add('cache_routes', Array)
+#1 /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Provider/RouteProvider.php(33): Bobby\Component\Route\Base->cacheRoutes()
+#2 /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Bootstrap/BootProviderHandle.php(13): Bobby\Component\Provider\RouteProvider->boot()
+#3 /var/www/frame/myframe/app/Core/Application.php(79): Bobby\Component\Bootstrap\BootProviderHandle->boot(Object(App\Core\Application))
+#4 /var/www/frame/myframe/bootstrap/app.php(6): App\Core\Application->boot()
+#5 /var/www/frame/myframe/public/index.php(3): require('/var/www/frame/...')
+#6 {main}
+
+[2019-01-24 04:19:39]  ,error code: 404 error message:Route 404 Not Found in /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Route/Base.php line 168
+#0 /var/www/frame/myframe/app/Core/Application.php(188): Bobby\Component\Route\Base->findRoute('GET', '/')
+#1 /var/www/frame/myframe/app/Core/Application.php(169): App\Core\Application->findRoute(Object(Bobby\Component\Http\Request\Instance\Normal))
+#2 /var/www/frame/myframe/public/index.php(7): App\Core\Application->responsePipeline(Object(Bobby\Component\Http\Request\Instance\Normal))
+#3 {main}
+
+[2019-01-24 04:20:31]  ,error code: 404 error message:Route 404 Not Found in /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Route/Base.php line 168
+#0 /var/www/frame/myframe/app/Core/Application.php(188): Bobby\Component\Route\Base->findRoute('GET', '/')
+#1 /var/www/frame/myframe/app/Core/Application.php(169): App\Core\Application->findRoute(Object(Bobby\Component\Http\Request\Instance\Normal))
+#2 /var/www/frame/myframe/public/index.php(7): App\Core\Application->responsePipeline(Object(Bobby\Component\Http\Request\Instance\Normal))
+#3 {main}
+
+[2019-01-24 04:21:28]  ,error code: 0 error message:Serialization of 'Closure' is not allowed in /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Route/Base.php line 184
+#0 /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Route/Base.php(184): apcu_add('cache_routes', Array)
+#1 /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Provider/RouteProvider.php(33): Bobby\Component\Route\Base->cacheRoutes()
+#2 /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Bootstrap/BootProviderHandle.php(13): Bobby\Component\Provider\RouteProvider->boot()
+#3 /var/www/frame/myframe/app/Core/Application.php(79): Bobby\Component\Bootstrap\BootProviderHandle->boot(Object(App\Core\Application))
+#4 /var/www/frame/myframe/bootstrap/app.php(6): App\Core\Application->boot()
+#5 /var/www/frame/myframe/public/index.php(3): require('/var/www/frame/...')
+#6 {main}
+
+[2019-01-24 04:55:42]  ,error code: 404 error message:Route 404 Not Found in /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Route/Base.php line 168
+#0 /var/www/frame/myframe/app/Core/Application.php(188): Bobby\Component\Route\Base->findRoute('GET', '/example/')
+#1 /var/www/frame/myframe/app/Core/Application.php(169): App\Core\Application->findRoute(Object(Bobby\Component\Http\Request\Instance\Normal))
+#2 /var/www/frame/myframe/public/index.php(7): App\Core\Application->responsePipeline(Object(Bobby\Component\Http\Request\Instance\Normal))
+#3 {main}
+
