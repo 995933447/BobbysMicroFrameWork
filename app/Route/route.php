@@ -31,4 +31,3 @@ Route::group(['wrappers' => ['before', 'example']], function($route) {
 
 	});
 });
-
