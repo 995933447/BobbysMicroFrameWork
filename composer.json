@@ -1,5 +1,5 @@
 {
-    "name" : "bobbys-oop-framework",
+    "name" : "bobbys/framework",
     "description": "Powerful speed performance, concise, very loosely coupled modern API micro-framework, easy to expand and rapid business development.",
     "key world" : ["framework", "component", "api", "api framework", "bobby", "basic", "basic framework", "php framework", "fast framework", "micro", "micro framework", "loosely", "ioc", "di", "expand", "php"],
     "type": "project",
