@@ -190,3 +190,30 @@
 #8 /var/www/frame/myframe/public/index.php(7): App\Core\Application->responsePipeline(Object(Bobby\Component\Http\Request))
 #9 {main}
 
+[2019-01-24 11:18:22]  ,error code: 0 error message:Class 'Bobby\Component\Http\request\InstanceFactory' not found in /var/www/frame/myframe/public/index.php line 6
+#0 {main}
+
+[2019-01-24 11:19:09]  ,error code: 0 error message:syntax error, unexpected '}' in /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Http/Request/InstanceFactory.php line 23
+#0 /var/www/frame/myframe/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/frame/...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('Bobby\\Component...')
+#2 /var/www/frame/myframe/public/index.php(6): spl_autoload_call('Bobby\\Component...')
+#3 {main}
+
+[2019-01-24 11:19:09]  ,error code: 0 error message:syntax error, unexpected '}' in /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Http/Request/InstanceFactory.php line 23
+#0 /var/www/frame/myframe/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/frame/...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('Bobby\\Component...')
+#2 /var/www/frame/myframe/public/index.php(6): spl_autoload_call('Bobby\\Component...')
+#3 {main}
+
+[2019-01-24 11:19:09]  ,error code: 0 error message:syntax error, unexpected '}' in /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Http/Request/InstanceFactory.php line 23
+#0 /var/www/frame/myframe/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/frame/...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('Bobby\\Component...')
+#2 /var/www/frame/myframe/public/index.php(6): spl_autoload_call('Bobby\\Component...')
+#3 {main}
+
+[2019-01-24 11:19:10]  ,error code: 0 error message:syntax error, unexpected '}' in /var/www/frame/myframe/vendor/yangzhouhong/bobbys-oop/src/Component/Http/Request/InstanceFactory.php line 23
+#0 /var/www/frame/myframe/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/frame/...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('Bobby\\Component...')
+#2 /var/www/frame/myframe/public/index.php(6): spl_autoload_call('Bobby\\Component...')
+#3 {main}
+
