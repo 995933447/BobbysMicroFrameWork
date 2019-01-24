@@ -1,7 +1,8 @@
 {
     "name" : "BobbysOOP",
     "description": "Powerful speed performance, concise, very loosely coupled modern API micro-framework, easy to expand and rapid business development.",
-    "type" : "project",
+    "key world" : ["framework", "component", "api", "api framework", "bobby", "basic", "basic framework", "php framework", "fast framework", "micro", "micro framework", "loosely", "ioc", "di", "expand"],
+    "type": "project",
     "license": "MIT",
     "require": {
         "php": ">=7.0",
