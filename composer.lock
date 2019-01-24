@@ -169,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/995933447/bobbysoop.git",
-                "reference": "669898367808044e884e493d3632e0d9db41f9f6"
+                "reference": "d4bb32d70d68d89a54da1e05633256afeea6da10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/995933447/bobbysoop/zipball/669898367808044e884e493d3632e0d9db41f9f6",
-                "reference": "669898367808044e884e493d3632e0d9db41f9f6",
+                "url": "https://api.github.com/repos/995933447/bobbysoop/zipball/d4bb32d70d68d89a54da1e05633256afeea6da10",
+                "reference": "d4bb32d70d68d89a54da1e05633256afeea6da10",
                 "shasum": ""
             },
             "type": "library",
@@ -196,8 +196,8 @@
                     "email": "yangzhouhong@bobby.com"
                 }
             ],
-            "description": "Php oop frame work",
-            "time": "2019-01-17T18:06:22+00:00"
+            "description": "Php oop frame component library",
+            "time": "2019-01-24T03:44:40+00:00"
         }
     ],
     "packages-dev": [],
