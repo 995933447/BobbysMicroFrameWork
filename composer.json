@@ -1,5 +1,10 @@
 {
+    "name" : "BobbysOOP",
+    "description": "Powerful speed performance, concise, very loosely coupled modern API micro-framework, easy to expand and rapid business development.",
+    "type" : "project",
+    "license": "MIT",
     "require": {
+        "php": ">=7.0",
         "yangzhouhong/bobbys-oop": "master-dev",
         "psr/container": "^1.0",
         "filp/whoops": "^2.3"
